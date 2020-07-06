@@ -67,12 +67,12 @@ public class TransferAssigneeListFragment
         //setUseDefaultPaddingDecoration(true);
         //setUseDefaultPaddingDecorationSpaceForEdges(true);
 
-        if (isScreenLarge())
-            setDefaultViewingGridSize(4, 6);
-        else if (isScreenNormal())
-            setDefaultViewingGridSize(3, 5);
-        else
-            setDefaultViewingGridSize(2, 4);
+//        if (isScreenLarge())
+//            setDefaultViewingGridSize(4, 6);
+//        else if (isScreenNormal())
+//            setDefaultViewingGridSize(3, 5);
+//        else
+//            setDefaultViewingGridSize(2, 4);
 
         //setDefaultPaddingDecorationSize(getResources().getDimension(R.dimen.padding_list_content_parent_layout));
     }
@@ -83,19 +83,19 @@ public class TransferAssigneeListFragment
         super.onViewCreated(view, savedInstanceState);
 
         setEmptyImage(R.drawable.ic_device_hub_white_24dp);
-        setEmptyText(getString(R.string.text_noDeviceForTransfer));
-        useEmptyActionButton(getString(R.string.butn_shareOnBrowser), new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                mHeldGroup.isServedOnWeb = !mHeldGroup.isServedOnWeb;
-                AppUtils.getDatabase(getContext()).update(mHeldGroup);
-
-                if (mHeldGroup.isServedOnWeb)
-                    AppUtils.startWebShareActivity(getActivity(), true);
-            }
-        });
+        setEmptyText(getString(R.string.send_data));
+//        useEmptyActionButton(getString(R.string.butn_shareOnBrowser), new View.OnClickListener()
+//        {
+//            @Override
+//            public void onClick(View v)
+//            {
+//                mHeldGroup.isServedOnWeb = !mHeldGroup.isServedOnWeb;
+//                AppUtils.getDatabase(getContext()).update(mHeldGroup);
+//
+//                if (mHeldGroup.isServedOnWeb)
+//                    AppUtils.startWebShareActivity(getActivity(), true);
+//            }
+//        });
 
         getEmptyActionButton().setOnLongClickListener(new View.OnLongClickListener()
         {
@@ -267,12 +267,12 @@ public class TransferAssigneeListFragment
 
     private void updateTransferGroup()
     {
-        try {
-            AppUtils.getDatabase(getContext()).reconstruct(mHeldGroup);
-            getEmptyActionButton().setText(mHeldGroup.isServedOnWeb ? R.string.butn_hideOnBrowser
-                    : R.string.butn_shareOnBrowser);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            AppUtils.getDatabase(getContext()).reconstruct(mHeldGroup);
+//            getEmptyActionButton().setText(mHeldGroup.isServedOnWeb ? R.string.butn_hideOnBrowser
+//                    : R.string.butn_shareOnBrowser);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 }

@@ -2153,8 +2153,6 @@ id action_mode_file_rename
 id action_mode_file_show
 id action_mode_file_toggle_shortcut
 id action_mode_group_delete
-id action_mode_group_hide_on_web
-id action_mode_group_serve_on_web
 id action_mode_share_TBShare
 id action_mode_share_all_apps
 id action_mode_transfer_delete
@@ -2183,8 +2181,6 @@ id actions_transfer_sender_add_device
 id actions_transfer_settings
 id actions_transfer_test_connection
 id actions_transfer_toggle
-id actions_transfer_toggle_browser_share
-id actions_transfer_web_share_shortcut
 id activitiy_filepicker_fragment_files
 id activitiy_home_fragment
 id activity_chooser_view_content
@@ -3301,6 +3297,7 @@ string s5
 string s6
 string s7
 string search_menu_title
+string send_data
 string status_bar_notification_info_overflow
 string summary_collapsed_preference_list
 string text_TBShareHotspot

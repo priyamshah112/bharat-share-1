@@ -337,6 +337,7 @@
     <string name="butn_hideOnBrowser">Hide on browser</string>
     <string name="text_transferSharedOnBrowser">Shared on browser</string>
     <string name="mode_webShareAddress">http://%s:%d/</string>
+    <string name="send_data">Click on + to send files.</string>
     <string name="text_dowloadTBShareAndroid">Download Bharat Share for Android</string>
     <string name="mesg_errorNotAnIpAddress">Not an IP Address
 \n(like 192.168.1.2)</string>
