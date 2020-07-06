@@ -2085,7 +2085,6 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id about_me
 id abstract_layout_fast_scroll_recyclerview_bottom_divider
 id abstract_layout_fast_scroll_recyclerview_container
 id abstract_layout_fast_scroll_recyclerview_fastscroll_view
@@ -2467,8 +2466,6 @@ id menu_action_share
 id menu_action_share_TBShare
 id menu_action_show_as_qr_code
 id menu_activity_home
-id menu_activity_main_manage_devices
-id menu_activity_main_web_share
 id menu_activity_receive
 id menu_activity_share
 id message
@@ -2481,7 +2478,6 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
-id moreapp
 id motion_base
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -2505,7 +2501,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id nav_group_other
-id nav_share
 id nav_view
 id navigation_header_container
 id network_devices_scan
@@ -2545,7 +2540,6 @@ id popup_changeChangeConnection
 id popup_remove
 id position
 id postLayout
-id privacypolicy
 id progress
 id progressBar
 id progress_circular
@@ -2553,7 +2547,6 @@ id progress_horizontal
 id progress_number
 id progress_percent
 id radio
-id rate_us
 id ratio
 id receiveLayoutButton
 id rectangles
