@@ -73,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/butn_wifiSettings"
-                    app:backgroundTint="?colorSurface" />
+                    app:backgroundTint="?colorPrimary" />
 
                 <RelativeLayout
                     android:id="@+id/layout_network_manager_info_container_text2_container"

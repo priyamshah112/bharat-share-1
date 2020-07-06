@@ -75,7 +75,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/butn_startHotspot"
-                    app:backgroundTint="?colorSurface" />
+                    app:backgroundTint="?colorPrimary" />
 
 
                 <RelativeLayout
