@@ -7,11 +7,11 @@ android {
     buildToolsVersion '29.0.3'
 
     defaultConfig {
-        applicationId "com.abc.sharefilesz"
+        applicationId "com.vivek.bharatshare"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 7
-        versionName "1.5"
+        versionCode 1
+        versionName "1.0"
         multiDexEnabled true
 
         manifestPlaceholders = [

@@ -1,0 +1,1060 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:154:9-162:20
+	android:grantUriPermissions
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:158:13-47
+	android:authorities
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:156:13-64
+	android:exported
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:155:13-62
+manifest
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3fce488b26acd1673e0b8e6e3d8d5f16/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] /home/priyam/.gradle/caches/transforms-2/files-2.1/906200af075e4223ad1e40cc811bc239/constraintlayout-2.0.0-beta7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:2:1-106:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ae25ccc5a5deba943f1ca778d1920922/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference:1.1.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/3c88f5ffb3edfacac276a7404cd1225a/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.genonbeta.android:framework:1.0.2.8] /home/priyam/.gradle/caches/transforms-2/files-2.1/161c7f577e281ea3cf79e48ffcd11f09/jetified-framework-1.0.2.8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:2:1-45:12
+MERGED from [com.google.android.material:material:1.2.0-alpha04] /home/priyam/.gradle/caches/transforms-2/files-2.1/d36ac18dbf39b115f83301ffe7e30331/material-1.2.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/88fa89be0e13260a3332c4d215af77f7/jetified-core-0.9.6.0/AndroidManifest.xml:2:1-15:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/priyam/.gradle/caches/transforms-2/files-2.1/e5667612f91649e8b03306c76ff1963c/jetified-library-1.4.2/AndroidManifest.xml:6:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/00a01f333019986308f71857af1f0bc3/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/fefa3cc619202dcf554a9e4bfe91a55e/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/a2b2439e1d5cf65b2f1ffcfdaadf5f66/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8a81bec8bbfef4cc5ec0f4d8d8edbd3b/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/451bb7c217deab2d434b13aea28e0cda/jetified-gdatabase-1.0.2.6.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/1cad659c3077d174e45ea0c35d0fa026/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/9e75d6352297c9d7a3a3b9f599fe81ff/jetified-glide-4.10.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-ads:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b1f98a8386b6e9ec97c00e8479a04f32/jetified-play-services-ads-19.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.media:media:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/920c2315ef3176a3712306464b968137/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/d388a8e114205222722fdc1e8d70ea74/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0da440a921d6e19ff87b463e6fcab878/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/7a7cc17d99cf3efba98183bd0636acec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/f4cf0192c96c8d4e6d16384d92078125/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ec859dc4c3852289f6e33607ee827cfb/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/def4cd9e9432188d393c69cb2170a2d7/jetified-play-services-gass-19.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/d14e6d6ed5f7a245272cd7dc39bc9a17/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/5a1a6c96269bd83719efc979aa08a9f9/jetified-play-services-location-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/3374e31129c1f7fc684c3f98601bc29a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/7bcfcce12346d8364c0388c6954c5548/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/cc29c8933915027f22a6758104fba538/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/50f8d780b89eced2eeeafaaf305592e4/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/cb57586bdae7f36e8f95ace178fd2e03/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/0a74c9476edabec76155064e0e69800b/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ada8e4f7f4972991880f098c90574a1e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/priyam/.gradle/caches/transforms-2/files-2.1/8e67e808a46cc582b335fb46f664b5b3/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ea9f5a024d55da9c0d4f59b2099e8740/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3f4de6289be6d3ff36db75c7aa87b659/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/12bbd9892436e145cbd4d6255e769079/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3506f66ffb55361dbdb1544d7bfa9373/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/2d905204036ef94c44aa21e99223d2e3/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b1ed0cd340a8dd62cb6c3fd8e342f046/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/e2007b80b7ab45bbdeb6f0ba40007d45/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6600bc0b4ac584667e66e2054ee45153/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/60ac5dfd4413e1fc4755e4849f226338/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6154b2cafe3bf80fcf69faf67fb496ab/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/879b3d51b773582fff1241d2b04ae4d8/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c58123555424e5e5c40e8c5d344a6e38/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/9e0d61b8fba1b2591c8bc80ee536ea44/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/73ee4d4279d6b94c0592a7fc511d1760/jetified-gifdecoder-4.10.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ccec6fd56bea2cb6b21d55a4e273296e/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0ef621fb3e3a8d15d75c794082abf388/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/71b412545f66a5a9e0eb88af7994c904/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c2c390a9b93b09054662c8fac23bd541/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/fcd1549dd5e7bf4928c6fdecc38c096b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b698ed6427cca75d5403bfa3c5e7faf3/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/988aeb61f4ee401dea4e85bbec5abb6f/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/bcec900b042566d07085ca8e00177a53/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/f9e98ece983112bccde01588236c0168/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c561ded74c191e3202df4d80319c2ed5/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/37d776f4cb155bed732583661b0fd448/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/988d71b380a697ae4e188d386c0ff3cf/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6b7a18f3714cd319eb40b55606458ad0/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/598418a92079fe12ba7fe1d9b6b20a3c/jetified-play-services-ads-base-19.2.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+	package
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:1-218:12
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:24:5-79
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:13:5-83
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:13:22-80
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:14:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:16:5-17:47
+	tools:ignore
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:16:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:19:5-66
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:23:5-66
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:19:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:21:5-68
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:18:5-68
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:18:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:21:22-65
+application
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:23:5-215:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] /home/priyam/.gradle/caches/transforms-2/files-2.1/906200af075e4223ad1e40cc811bc239/constraintlayout-2.0.0-beta7/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] /home/priyam/.gradle/caches/transforms-2/files-2.1/906200af075e4223ad1e40cc811bc239/constraintlayout-2.0.0-beta7/AndroidManifest.xml:9:5-20
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:48:5-104:19
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:48:5-104:19
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:35:5-43:19
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:35:5-43:19
+MERGED from [com.google.android.material:material:1.2.0-alpha04] /home/priyam/.gradle/caches/transforms-2/files-2.1/d36ac18dbf39b115f83301ffe7e30331/material-1.2.0-alpha04/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha04] /home/priyam/.gradle/caches/transforms-2/files-2.1/d36ac18dbf39b115f83301ffe7e30331/material-1.2.0-alpha04/AndroidManifest.xml:22:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/88fa89be0e13260a3332c4d215af77f7/jetified-core-0.9.6.0/AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/88fa89be0e13260a3332c4d215af77f7/jetified-core-0.9.6.0/AndroidManifest.xml:13:5-20
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/451bb7c217deab2d434b13aea28e0cda/jetified-gdatabase-1.0.2.6.1/AndroidManifest.xml:11:5-20
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/451bb7c217deab2d434b13aea28e0cda/jetified-gdatabase-1.0.2.6.1/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/1cad659c3077d174e45ea0c35d0fa026/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/1cad659c3077d174e45ea0c35d0fa026/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/9e75d6352297c9d7a3a3b9f599fe81ff/jetified-glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/9e75d6352297c9d7a3a3b9f599fe81ff/jetified-glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/def4cd9e9432188d393c69cb2170a2d7/jetified-play-services-gass-19.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/def4cd9e9432188d393c69cb2170a2d7/jetified-play-services-gass-19.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/d14e6d6ed5f7a245272cd7dc39bc9a17/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/d14e6d6ed5f7a245272cd7dc39bc9a17/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/5a1a6c96269bd83719efc979aa08a9f9/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/5a1a6c96269bd83719efc979aa08a9f9/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/3374e31129c1f7fc684c3f98601bc29a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/3374e31129c1f7fc684c3f98601bc29a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/7bcfcce12346d8364c0388c6954c5548/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/7bcfcce12346d8364c0388c6954c5548/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/cc29c8933915027f22a6758104fba538/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/cc29c8933915027f22a6758104fba538/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/50f8d780b89eced2eeeafaaf305592e4/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/50f8d780b89eced2eeeafaaf305592e4/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/cb57586bdae7f36e8f95ace178fd2e03/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/cb57586bdae7f36e8f95ace178fd2e03/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/0a74c9476edabec76155064e0e69800b/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/0a74c9476edabec76155064e0e69800b/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ada8e4f7f4972991880f098c90574a1e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ada8e4f7f4972991880f098c90574a1e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c58123555424e5e5c40e8c5d344a6e38/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c58123555424e5e5c40e8c5d344a6e38/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/73ee4d4279d6b94c0592a7fc511d1760/jetified-gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/73ee4d4279d6b94c0592a7fc511d1760/jetified-gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ccec6fd56bea2cb6b21d55a4e273296e/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ccec6fd56bea2cb6b21d55a4e273296e/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/598418a92079fe12ba7fe1d9b6b20a3c/jetified-play-services-ads-base-19.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/598418a92079fe12ba7fe1d9b6b20a3c/jetified-play-services-ads-base-19.2.0/AndroidManifest.xml:7:5-20
+	android:supportsRtl
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:29:9-41
+	android:appComponentFactory
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:26:9-55
+		REJECTED from [androidx.core:core:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c58123555424e5e5c40e8c5d344a6e38/core-1.2.0/AndroidManifest.xml:24:18-86
+	android:fullBackupContent
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:27:9-41
+	tools:ignore
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:32:9-48
+	android:icon
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:28:9-43
+	android:allowBackup
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:31:9-45
+	tools:replace
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:33:9-52
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:24:9-52
+meta-data#com.google.android.gms.version
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:35:9-37:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ada8e4f7f4972991880f098c90574a1e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ada8e4f7f4972991880f098c90574a1e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:37:13-66
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:36:13-58
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:38:9-40:52
+	android:value
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:39:13-69
+activity#com.abc.sharefilesz.activity.MainActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:42:9-48:20
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:44:13-45
+	android:launchMode
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:45:13-44
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:46:13-61
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:43:13-69
+activity#com.abc.sharefilesz.activity.ShareActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:49:9-65:20
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:51:13-45
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:52:13-77
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:50:13-70
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SEND_MULTIPLE+action:name:genonbeta.intent.action.TBShare_SEND+action:name:genonbeta.intent.action.TBShare_SEND_MULTIPLE+action:name:genonbeta.intent.action.TBShare_SEND_TEXT+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:53:13-62:29
+action#genonbeta.intent.action.TBShare_SEND_TEXT
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:54:17-84
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:54:25-81
+action#android.intent.action.SEND
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:55:25-66
+action#android.intent.action.SEND_MULTIPLE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:56:17-78
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:56:25-75
+action#genonbeta.intent.action.TBShare_SEND
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:57:17-79
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:57:25-76
+action#genonbeta.intent.action.TBShare_SEND_MULTIPLE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:58:17-88
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:58:25-85
+category#android.intent.category.DEFAULT
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:60:27-73
+data
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:61:17-48
+	android:host
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:106:23-39
+	android:scheme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:102:23-44
+	android:pathPattern
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:107:23-56
+	android:mimeType
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:61:23-45
+activity#com.abc.sharefilesz.activity.AddDevicesToTransferActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:67:9-70:80
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:69:13-62
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:70:13-77
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:68:13-85
+activity#com.abc.sharefilesz.activity.FileExplorerActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:72:9-75:80
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:74:13-54
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:75:13-77
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:73:13-77
+activity#com.abc.sharefilesz.activity.ConnectionManagerActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:77:9-80:80
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:79:13-56
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:80:13-77
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:78:13-82
+activity#com.abc.sharefilesz.activity.ContentSharingActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:82:9-86:80
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:84:13-46
+	android:launchMode
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:85:13-44
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:86:13-77
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:83:13-79
+activity#com.abc.sharefilesz.activity.FilePickerActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:88:9-90:57
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:90:13-54
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:89:13-75
+activity#com.abc.sharefilesz.activity.ViewTransferActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:92:9-110:20
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:94:13-59
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:95:13-77
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:93:13-77
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\..*\\.tshare+data:pathPattern:.*\\.tshare+data:scheme:content+data:scheme:file
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:96:13-109:29
+action#android.intent.action.VIEW
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:97:17-69
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:97:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:100:17-78
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:100:27-75
+activity#com.abc.sharefilesz.activity.ManageDevicesActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:112:9-115:63
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:114:13-55
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:115:13-61
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:113:13-78
+activity#com.abc.sharefilesz.activity.SearchActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:117:9-119:51
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:119:13-48
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:118:13-71
+activity#com.abc.sharefilesz.activity.TextEditorActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:121:9-123:55
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:123:13-52
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:122:13-75
+activity#com.abc.sharefilesz.activity.ChangeStoragePathActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:125:9-132:20
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:127:13-63
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:126:13-82
+intent-filter#action:name:com.genonbeta.intent.action.UPDATE_STORAGE_PATH+category:name:android.intent.category.DEFAULT
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:128:13-131:29
+action#com.genonbeta.intent.action.UPDATE_STORAGE_PATH
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:129:17-90
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:129:25-87
+activity#com.abc.sharefilesz.activity.BarcodeScannerActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:134:9-137:75
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:136:13-52
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:137:13-72
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:135:13-79
+activity#com.abc.sharefilesz.activity.SplashActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:139:9-149:20
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:141:13-45
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:142:13-61
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:140:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:144:13-147:29
+action#android.intent.action.MAIN
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:145:17-69
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:145:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:146:17-77
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:146:27-74
+activity#com.abc.sharefilesz.activity.WebShareActivity
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:150:9-152:63
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:151:13-38
+	android:theme
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:152:13-61
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:150:19-60
+receiver#com.abc.sharefilesz.receiver.NetworkStatusReceiver
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:164:9-173:20
+	android:process
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:166:13-40
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:165:13-78
+intent-filter#action:name:android.net.wifi.STATE_CHANGE+action:name:android.net.wifi.WIFI_AP_STATE_CHANGED+action:name:android.net.wifi.WIFI_STATE_CHANGED+action:name:android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:167:13-172:29
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:168:17-78
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:168:25-75
+action#android.net.wifi.WIFI_AP_STATE_CHANGED
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:169:17-81
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:169:25-78
+action#android.net.wifi.STATE_CHANGE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:170:17-72
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:170:25-69
+action#android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:171:17-87
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:171:25-84
+receiver#com.abc.sharefilesz.receiver.DialogEventReceiver
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:174:9-176:43
+	android:process
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:176:13-40
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:175:13-76
+service#com.abc.sharefilesz.service.CommunicationService
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:178:9-182:43
+	android:process
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:182:13-40
+	android:enabled
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:180:13-35
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:181:13-62
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:179:13-76
+service#com.abc.sharefilesz.service.DeviceChooserService
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:184:9-191:19
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:186:13-62
+	android:permission
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:187:13-80
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:185:13-76
+intent-filter#action:name:android.service.chooser.ChooserTargetService
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:188:13-190:29
+action#android.service.chooser.ChooserTargetService
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:189:17-87
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:189:25-84
+service#com.abc.sharefilesz.service.DeviceScannerService
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:192:9-199:19
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:192:18-81
+intent-filter#action:name:genonbeta.intent.action.ADD_IP+action:name:genonbeta.intent.action.SCAN_DEVICES+category:name:android.intent.category.DEFAULT
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:193:13-198:29
+action#genonbeta.intent.action.SCAN_DEVICES
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:194:17-79
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:194:25-76
+action#genonbeta.intent.action.ADD_IP
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:195:17-73
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:195:25-70
+service#com.abc.sharefilesz.service.WorkerService
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:201:9-203:58
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:203:13-55
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:202:13-69
+service#com.abc.sharefilesz.service.CommunicationToggleTile
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:205:9-214:19
+	android:process
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:210:13-40
+	android:label
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:208:13-52
+	android:permission
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:209:13-77
+	android:icon
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:207:13-47
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:206:13-79
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:211:13-213:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:212:17-87
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:212:25-84
+uses-sdk
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3fce488b26acd1673e0b8e6e3d8d5f16/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3fce488b26acd1673e0b8e6e3d8d5f16/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] /home/priyam/.gradle/caches/transforms-2/files-2.1/906200af075e4223ad1e40cc811bc239/constraintlayout-2.0.0-beta7/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] /home/priyam/.gradle/caches/transforms-2/files-2.1/906200af075e4223ad1e40cc811bc239/constraintlayout-2.0.0-beta7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:4:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ae25ccc5a5deba943f1ca778d1920922/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ae25ccc5a5deba943f1ca778d1920922/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.1.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/3c88f5ffb3edfacac276a7404cd1225a/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/3c88f5ffb3edfacac276a7404cd1225a/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.genonbeta.android:framework:1.0.2.8] /home/priyam/.gradle/caches/transforms-2/files-2.1/161c7f577e281ea3cf79e48ffcd11f09/jetified-framework-1.0.2.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.genonbeta.android:framework:1.0.2.8] /home/priyam/.gradle/caches/transforms-2/files-2.1/161c7f577e281ea3cf79e48ffcd11f09/jetified-framework-1.0.2.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.2.0-alpha04] /home/priyam/.gradle/caches/transforms-2/files-2.1/d36ac18dbf39b115f83301ffe7e30331/material-1.2.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha04] /home/priyam/.gradle/caches/transforms-2/files-2.1/d36ac18dbf39b115f83301ffe7e30331/material-1.2.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/88fa89be0e13260a3332c4d215af77f7/jetified-core-0.9.6.0/AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/88fa89be0e13260a3332c4d215af77f7/jetified-core-0.9.6.0/AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/priyam/.gradle/caches/transforms-2/files-2.1/e5667612f91649e8b03306c76ff1963c/jetified-library-1.4.2/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/priyam/.gradle/caches/transforms-2/files-2.1/e5667612f91649e8b03306c76ff1963c/jetified-library-1.4.2/AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/00a01f333019986308f71857af1f0bc3/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/00a01f333019986308f71857af1f0bc3/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/fefa3cc619202dcf554a9e4bfe91a55e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/fefa3cc619202dcf554a9e4bfe91a55e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/a2b2439e1d5cf65b2f1ffcfdaadf5f66/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/a2b2439e1d5cf65b2f1ffcfdaadf5f66/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8a81bec8bbfef4cc5ec0f4d8d8edbd3b/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8a81bec8bbfef4cc5ec0f4d8d8edbd3b/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/451bb7c217deab2d434b13aea28e0cda/jetified-gdatabase-1.0.2.6.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/451bb7c217deab2d434b13aea28e0cda/jetified-gdatabase-1.0.2.6.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/1cad659c3077d174e45ea0c35d0fa026/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/1cad659c3077d174e45ea0c35d0fa026/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/9e75d6352297c9d7a3a3b9f599fe81ff/jetified-glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/9e75d6352297c9d7a3a3b9f599fe81ff/jetified-glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-ads:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b1f98a8386b6e9ec97c00e8479a04f32/jetified-play-services-ads-19.2.0/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b1f98a8386b6e9ec97c00e8479a04f32/jetified-play-services-ads-19.2.0/AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.media:media:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/920c2315ef3176a3712306464b968137/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/920c2315ef3176a3712306464b968137/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/d388a8e114205222722fdc1e8d70ea74/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/d388a8e114205222722fdc1e8d70ea74/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0da440a921d6e19ff87b463e6fcab878/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0da440a921d6e19ff87b463e6fcab878/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/7a7cc17d99cf3efba98183bd0636acec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/7a7cc17d99cf3efba98183bd0636acec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/f4cf0192c96c8d4e6d16384d92078125/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/f4cf0192c96c8d4e6d16384d92078125/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ec859dc4c3852289f6e33607ee827cfb/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ec859dc4c3852289f6e33607ee827cfb/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/def4cd9e9432188d393c69cb2170a2d7/jetified-play-services-gass-19.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/def4cd9e9432188d393c69cb2170a2d7/jetified-play-services-gass-19.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/d14e6d6ed5f7a245272cd7dc39bc9a17/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/d14e6d6ed5f7a245272cd7dc39bc9a17/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/5a1a6c96269bd83719efc979aa08a9f9/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/5a1a6c96269bd83719efc979aa08a9f9/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/3374e31129c1f7fc684c3f98601bc29a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/3374e31129c1f7fc684c3f98601bc29a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0fa9b5a817940a7e12c14c5879b1ea9d/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/7bcfcce12346d8364c0388c6954c5548/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/7bcfcce12346d8364c0388c6954c5548/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/cc29c8933915027f22a6758104fba538/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/cc29c8933915027f22a6758104fba538/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/50f8d780b89eced2eeeafaaf305592e4/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/50f8d780b89eced2eeeafaaf305592e4/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/cb57586bdae7f36e8f95ace178fd2e03/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/cb57586bdae7f36e8f95ace178fd2e03/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/0a74c9476edabec76155064e0e69800b/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/priyam/.gradle/caches/transforms-2/files-2.1/0a74c9476edabec76155064e0e69800b/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ada8e4f7f4972991880f098c90574a1e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ada8e4f7f4972991880f098c90574a1e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /home/priyam/.gradle/caches/transforms-2/files-2.1/8e67e808a46cc582b335fb46f664b5b3/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/priyam/.gradle/caches/transforms-2/files-2.1/8e67e808a46cc582b335fb46f664b5b3/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ea9f5a024d55da9c0d4f59b2099e8740/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ea9f5a024d55da9c0d4f59b2099e8740/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3f4de6289be6d3ff36db75c7aa87b659/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3f4de6289be6d3ff36db75c7aa87b659/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/12bbd9892436e145cbd4d6255e769079/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/12bbd9892436e145cbd4d6255e769079/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3506f66ffb55361dbdb1544d7bfa9373/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/3506f66ffb55361dbdb1544d7bfa9373/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/2d905204036ef94c44aa21e99223d2e3/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/2d905204036ef94c44aa21e99223d2e3/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b1ed0cd340a8dd62cb6c3fd8e342f046/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b1ed0cd340a8dd62cb6c3fd8e342f046/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/e2007b80b7ab45bbdeb6f0ba40007d45/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/e2007b80b7ab45bbdeb6f0ba40007d45/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6600bc0b4ac584667e66e2054ee45153/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6600bc0b4ac584667e66e2054ee45153/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/60ac5dfd4413e1fc4755e4849f226338/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/60ac5dfd4413e1fc4755e4849f226338/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6154b2cafe3bf80fcf69faf67fb496ab/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6154b2cafe3bf80fcf69faf67fb496ab/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/879b3d51b773582fff1241d2b04ae4d8/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/879b3d51b773582fff1241d2b04ae4d8/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c58123555424e5e5c40e8c5d344a6e38/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c58123555424e5e5c40e8c5d344a6e38/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/9e0d61b8fba1b2591c8bc80ee536ea44/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/9e0d61b8fba1b2591c8bc80ee536ea44/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/73ee4d4279d6b94c0592a7fc511d1760/jetified-gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/73ee4d4279d6b94c0592a7fc511d1760/jetified-gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ccec6fd56bea2cb6b21d55a4e273296e/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/ccec6fd56bea2cb6b21d55a4e273296e/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0ef621fb3e3a8d15d75c794082abf388/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/0ef621fb3e3a8d15d75c794082abf388/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/71b412545f66a5a9e0eb88af7994c904/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/71b412545f66a5a9e0eb88af7994c904/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c2c390a9b93b09054662c8fac23bd541/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c2c390a9b93b09054662c8fac23bd541/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/fcd1549dd5e7bf4928c6fdecc38c096b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/fcd1549dd5e7bf4928c6fdecc38c096b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b698ed6427cca75d5403bfa3c5e7faf3/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b698ed6427cca75d5403bfa3c5e7faf3/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/988aeb61f4ee401dea4e85bbec5abb6f/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/988aeb61f4ee401dea4e85bbec5abb6f/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/bcec900b042566d07085ca8e00177a53/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/bcec900b042566d07085ca8e00177a53/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/f9e98ece983112bccde01588236c0168/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/f9e98ece983112bccde01588236c0168/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c561ded74c191e3202df4d80319c2ed5/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/c561ded74c191e3202df4d80319c2ed5/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/37d776f4cb155bed732583661b0fd448/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/37d776f4cb155bed732583661b0fd448/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/988d71b380a697ae4e188d386c0ff3cf/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/988d71b380a697ae4e188d386c0ff3cf/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6b7a18f3714cd319eb40b55606458ad0/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/6b7a18f3714cd319eb40b55606458ad0/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/598418a92079fe12ba7fe1d9b6b20a3c/jetified-play-services-ads-base-19.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/598418a92079fe12ba7fe1d9b6b20a3c/jetified-play-services-ads-base-19.2.0/AndroidManifest.xml:5:5-44
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/88fa89be0e13260a3332c4d215af77f7/jetified-core-0.9.6.0/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+		INJECTED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:159:13-161:58
+	android:resource
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:161:17-55
+	android:name
+		ADDED from /home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/AndroidManifest.xml:160:17-67
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:8:9-63
+permission#com.vivek.bharatshare.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:8:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:11:22-76
+uses-permission#com.vivek.bharatshare.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:11:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:17:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:17:22-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:29:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:31:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:31:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:32:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:32:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:33:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:34:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:35:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:35:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:36:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:36:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:37:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:38:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:38:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:39:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:39:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:40:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:40:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:41:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:41:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:45:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:45:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:46:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:49:9-51:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:50:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:53:9-55:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:55:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:54:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:57:9-67:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:59:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:58:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:62:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.vivek.bharatshare
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:62:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:63:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:65:27-58
+category#com.vivek.bharatshare
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:65:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:68:19-74
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:70:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:70:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:71:9-73:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:73:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:72:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:74:9-76:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:76:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:75:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:77:9-79:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:79:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:78:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:80:9-82:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:82:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:81:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:83:9-85:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:85:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:84:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:87:9-89:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:89:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:88:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:91:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:91:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:93:9-98:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:93:19-62
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:94:13-97:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:95:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:95:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:96:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:96:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:99:9-103:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:99:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:100:13-102:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:101:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.7] /home/priyam/.gradle/caches/transforms-2/files-2.1/edcdf7df23c97b358310690ba2fd6f6c/jetified-OneSignal-3.12.7/AndroidManifest.xml:101:25-81
+uses-permission#android.permission.CAMERA
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:11:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:15:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:23:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:26:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:29:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:32:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:36:9-42:63
+	android:screenOrientation
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:39:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:38:13-45
+	android:stateNotNeeded
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:40:13-42
+	android:windowSoftInputMode
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:42:13-60
+	android:theme
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:41:13-54
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/AndroidManifest.xml:37:13-74
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/1cad659c3077d174e45ea0c35d0fa026/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/1cad659c3077d174e45ea0c35d0fa026/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/1cad659c3077d174e45ea0c35d0fa026/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:12:13-84
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/b051db818647b68aea4031b1b70c6320/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:36:13-76
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/351e187afa23897ca899494cf0d63132/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:32:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/42ad7fc6be22570798d9157a53c5479b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/priyam/.gradle/caches/transforms-2/files-2.1/8861a755efd24744ecf5316303d5dfdb/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/priyam/.gradle/caches/transforms-2/files-2.1/6d6a7461e537959a9b94e7bf8407ed03/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77

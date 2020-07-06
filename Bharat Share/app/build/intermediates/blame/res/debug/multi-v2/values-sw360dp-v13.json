@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/3c88f5ffb3edfacac276a7404cd1225a/preference-1.1.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}
