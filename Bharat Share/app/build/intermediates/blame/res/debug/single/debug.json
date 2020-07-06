@@ -32,12 +32,12 @@
         "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/color/text_button_text_color_selector.xml"
     },
     {
-        "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable_ic_web_white2_24dp.xml.flat",
-        "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/drawable/ic_web_white2_24dp.xml"
-    },
-    {
         "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable_ic_privacy.PNG.flat",
         "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/drawable/ic_privacy.PNG"
+    },
+    {
+        "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable_ic_web_white2_24dp.xml.flat",
+        "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/drawable/ic_web_white2_24dp.xml"
     },
     {
         "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable-v21_round_selector_dark.xml.flat",
@@ -96,12 +96,12 @@
         "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/layout/fragment_manager.xml"
     },
     {
-        "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/layout_activity_add_devices_to_transfer.xml.flat",
-        "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/layout/activity_add_devices_to_transfer.xml"
-    },
-    {
         "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_compare_arrows_white_24dp_static.png.flat",
         "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/drawable-mdpi/ic_compare_arrows_white_24dp_static.png"
+    },
+    {
+        "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/layout_activity_add_devices_to_transfer.xml.flat",
+        "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/layout/activity_add_devices_to_transfer.xml"
     },
     {
         "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable_selectable_item_background.xml.flat",
@@ -140,12 +140,12 @@
         "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/drawable/ic_format_list_checks_white_24dp.xml"
     },
     {
-        "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_close_white_24dp_static.png.flat",
-        "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/drawable-xxxhdpi/ic_close_white_24dp_static.png"
-    },
-    {
         "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_close_white_24dp_static.png.flat",
+        "source": "/home/priyam/Music/bharat-share-1/Bharat Share/app/src/main/res/drawable-xxxhdpi/ic_close_white_24dp_static.png"
     },
     {
         "merged": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/res/merged/debug/drawable_background_popup_menu.xml.flat",
