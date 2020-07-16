@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "outputFile": "D:\\bharat-share-1\\Bharat Share\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/ad40bd04b6d5d4401da4bd28cb4cddf7/jetified-zxing-3.6.3/res/values-id/values-id.xml",
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\ad40bd04b6d5d4401da4bd28cb4cddf7\\jetified-zxing-3.6.3\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

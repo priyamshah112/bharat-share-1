@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-normal-v4/values-normal-v4.xml",
+            "outputFile": "D:\\bharat-share-1\\Bharat Share\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
             "map": [
                 {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/161c7f577e281ea3cf79e48ffcd11f09/jetified-framework-1.0.2.8/res/values-normal-v4/values-normal-v4.xml",
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\161c7f577e281ea3cf79e48ffcd11f09\\jetified-framework-1.0.2.8\\res\\values-normal-v4\\values-normal-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

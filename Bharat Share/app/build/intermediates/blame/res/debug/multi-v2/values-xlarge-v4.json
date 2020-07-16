@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "D:\\bharat-share-1\\Bharat Share\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/00a01f333019986308f71857af1f0bc3/appcompat-1.1.0/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\161c7f577e281ea3cf79e48ffcd11f09\\jetified-framework-1.0.2.8\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\00a01f333019986308f71857af1f0bc3\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "106,177,248,318,388,456",
                         "endColumns": "70,70,69,69,67,67",
                         "endOffsets": "172,243,313,383,451,519"
-                    }
-                },
-                {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/161c7f577e281ea3cf79e48ffcd11f09/jetified-framework-1.0.2.8/res/values-xlarge-v4/values-xlarge-v4.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "50",
-                        "endOffsets": "101"
                     }
                 }
             ]

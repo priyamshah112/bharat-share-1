@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "D:\\bharat-share-1\\Bharat Share\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/d36ac18dbf39b115f83301ffe7e30331/material-1.2.0-alpha04/res/values-large-v4/values-large-v4.xml",
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\d36ac18dbf39b115f83301ffe7e30331\\material-1.2.0-alpha04\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/00a01f333019986308f71857af1f0bc3/appcompat-1.1.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\00a01f333019986308f71857af1f0bc3\\appcompat-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/161c7f577e281ea3cf79e48ffcd11f09/jetified-framework-1.0.2.8/res/values-large-v4/values-large-v4.xml",
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\161c7f577e281ea3cf79e48ffcd11f09\\jetified-framework-1.0.2.8\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

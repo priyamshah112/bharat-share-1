@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/priyam/Music/bharat-share-1/Bharat Share/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "D:\\bharat-share-1\\Bharat Share\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/920c2315ef3176a3712306464b968137/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\920c2315ef3176a3712306464b968137\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/priyam/.gradle/caches/transforms-2/files-2.1/00a01f333019986308f71857af1f0bc3/appcompat-1.1.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\Priyam Shah\\.gradle\\caches\\transforms-2\\files-2.1\\00a01f333019986308f71857af1f0bc3\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
