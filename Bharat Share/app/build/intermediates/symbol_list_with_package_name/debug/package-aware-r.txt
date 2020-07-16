@@ -2138,9 +2138,6 @@ id action_divider
 id action_image
 id action_menu_divider
 id action_menu_presenter
-id action_mode_abs_editable_preview_selections
-id action_mode_abs_editable_select_all
-id action_mode_abs_editable_select_none
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
@@ -2159,15 +2156,10 @@ id action_mode_transfer_delete
 id action_text
 id actions
 id actions_abs_editable_filter
-id actions_abs_editable_grid_size
 id actions_abs_editable_group_grid_size
 id actions_abs_editable_group_sort_order
 id actions_abs_editable_group_sorting
-id actions_abs_editable_multi_select
-id actions_abs_editable_order_by
-id actions_abs_editable_sort_by
 id actions_abs_group_shareable_group_grouping
-id actions_abs_group_shareable_grouping
 id actions_abs_view_transfer_activity_settings
 id actions_add_devices_done
 id actions_add_devices_help

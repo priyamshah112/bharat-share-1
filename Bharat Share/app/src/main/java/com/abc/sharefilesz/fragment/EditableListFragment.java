@@ -224,101 +224,101 @@ abstract public class EditableListFragment<T extends Editable, V extends Editabl
             }
         }
 
-        MenuItem gridSizeItem = menu.findItem(R.id.actions_abs_editable_grid_size);
-
-        if (gridSizeItem != null) {
-            Menu gridSizeMenu = gridSizeItem.getSubMenu();
-
-            for (int i = 1; i < (isScreenLandscape() ? 7 : 5); i++)
-                gridSizeMenu.add(R.id.actions_abs_editable_group_grid_size, 0, i,
-                        getContext().getResources().getQuantityString(R.plurals.text_gridRow, i, i));
-
-            gridSizeMenu.setGroupCheckable(R.id.actions_abs_editable_group_grid_size, true, true);
-        }
-
-        Map<String, Integer> sortingOptions = new ArrayMap<>();
-        onSortingOptions(sortingOptions);
-
-        if (sortingOptions.size() > 0) {
-            mSortingOptions.clear();
-            mSortingOptions.putAll(sortingOptions);
-
-            applyDynamicMenuItems(menu.findItem(R.id.actions_abs_editable_sort_by),
-                    R.id.actions_abs_editable_group_sorting, mSortingOptions);
-
-            Map<String, Integer> orderingOptions = new ArrayMap<>();
-            onOrderingOptions(orderingOptions);
-
-            if (orderingOptions.size() > 0) {
-                mOrderingOptions.clear();
-                mOrderingOptions.putAll(orderingOptions);
-
-                applyDynamicMenuItems(menu.findItem(R.id.actions_abs_editable_order_by),
-                        R.id.actions_abs_editable_group_sort_order, mOrderingOptions);
-            }
-        }
+//        MenuItem gridSizeItem = menu.findItem(R.id.actions_abs_editable_grid_size);
+//
+//        if (gridSizeItem != null) {
+//            Menu gridSizeMenu = gridSizeItem.getSubMenu();
+//
+//            for (int i = 1; i < (isScreenLandscape() ? 7 : 5); i++)
+//                gridSizeMenu.add(R.id.actions_abs_editable_group_grid_size, 0, i,
+//                        getContext().getResources().getQuantityString(R.plurals.text_gridRow, i, i));
+//
+//            gridSizeMenu.setGroupCheckable(R.id.actions_abs_editable_group_grid_size, true, true);
+//        }
+//
+//        Map<String, Integer> sortingOptions = new ArrayMap<>();
+//        onSortingOptions(sortingOptions);
+//
+//        if (sortingOptions.size() > 0) {
+//            mSortingOptions.clear();
+//            mSortingOptions.putAll(sortingOptions);
+//
+//            applyDynamicMenuItems(menu.findItem(R.id.actions_abs_editable_sort_by),
+//                    R.id.actions_abs_editable_group_sorting, mSortingOptions);
+//
+//            Map<String, Integer> orderingOptions = new ArrayMap<>();
+//            onOrderingOptions(orderingOptions);
+//
+//            if (orderingOptions.size() > 0) {
+//                mOrderingOptions.clear();
+//                mOrderingOptions.putAll(orderingOptions);
+//
+//                applyDynamicMenuItems(menu.findItem(R.id.actions_abs_editable_order_by),
+//                        R.id.actions_abs_editable_group_sort_order, mOrderingOptions);
+//            }
+//        }
     }
 
     @Override
     public void onPrepareOptionsMenu(@NonNull Menu menu)
     {
-        super.onPrepareOptionsMenu(menu);
-
-        menu.findItem(R.id.actions_abs_editable_sort_by)
-                .setEnabled(isSortingSupported());
-
-        MenuItem multiSelect = menu.findItem(R.id.actions_abs_editable_multi_select);
-
-        if (multiSelect != null
-                && (getSelectionConnection() == null
-                || !getSelectionConnection().getMode().getEngineToolbar().isFinishAllowed()))
-            multiSelect.setVisible(false);
-
-        if (!getAdapter().isGridSupported())
-            menu.findItem(R.id.actions_abs_editable_grid_size)
-                    .setVisible(false);
-
-        MenuItem sortingItem = menu.findItem(R.id.actions_abs_editable_sort_by);
-
-        if (sortingItem != null) {
-            sortingItem.setVisible(mSortingSupported);
-
-            if (sortingItem.isVisible()) {
-                checkPreferredDynamicItem(sortingItem, getSortingCriteria(), mSortingOptions);
-
-                MenuItem orderingItem = menu.findItem(R.id.actions_abs_editable_order_by);
-
-                if (orderingItem != null)
-                    checkPreferredDynamicItem(orderingItem, getOrderingCriteria(),
-                            mOrderingOptions);
-            }
-        }
-
-        MenuItem gridSizeItem = menu.findItem(R.id.actions_abs_editable_grid_size);
-
-        if (gridSizeItem != null) {
-            Menu gridRowMenu = gridSizeItem.getSubMenu();
-            int currentRow = getViewingGridSize() - 1;
-
-            if (currentRow < gridRowMenu.size())
-                gridRowMenu.getItem(currentRow).setChecked(true);
-        }
+//        super.onPrepareOptionsMenu(menu);
+//
+//        menu.findItem(R.id.actions_abs_editable_sort_by)
+//                .setEnabled(isSortingSupported());
+//
+//        MenuItem multiSelect = menu.findItem(R.id.actions_abs_editable_multi_select);
+//
+//        if (multiSelect != null
+//                && (getSelectionConnection() == null
+//                || !getSelectionConnection().getMode().getEngineToolbar().isFinishAllowed()))
+//            multiSelect.setVisible(false);
+//
+//        if (!getAdapter().isGridSupported())
+//            menu.findItem(R.id.actions_abs_editable_grid_size)
+//                    .setVisible(false);
+//
+//        MenuItem sortingItem = menu.findItem(R.id.actions_abs_editable_sort_by);
+//
+//        if (sortingItem != null) {
+//            sortingItem.setVisible(mSortingSupported);
+//
+//            if (sortingItem.isVisible()) {
+//                checkPreferredDynamicItem(sortingItem, getSortingCriteria(), mSortingOptions);
+//
+//                MenuItem orderingItem = menu.findItem(R.id.actions_abs_editable_order_by);
+//
+//                if (orderingItem != null)
+//                    checkPreferredDynamicItem(orderingItem, getOrderingCriteria(),
+//                            mOrderingOptions);
+//            }
+//        }
+//
+//        MenuItem gridSizeItem = menu.findItem(R.id.actions_abs_editable_grid_size);
+//
+//        if (gridSizeItem != null) {
+//            Menu gridRowMenu = gridSizeItem.getSubMenu();
+//            int currentRow = getViewingGridSize() - 1;
+//
+//            if (currentRow < gridRowMenu.size())
+//                gridRowMenu.getItem(currentRow).setChecked(true);
+//        }
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
-        int id = item.getItemId();
-        int groupId = item.getGroupId();
-
-        if (id == R.id.actions_abs_editable_multi_select && getSelectionCallback() != null)
-            getSelectionConnection().getMode().start(getSelectionCallback());
-        else if (groupId == R.id.actions_abs_editable_group_sorting)
-            changeSortingCriteria(item.getOrder());
-        else if (groupId == R.id.actions_abs_editable_group_sort_order)
-            changeOrderingCriteria(item.getOrder());
-        else if (groupId == R.id.actions_abs_editable_group_grid_size)
-            changeGridViewSize(item.getOrder());
+//        int id = item.getItemId();
+//        int groupId = item.getGroupId();
+//
+//        if (id == R.id.actions_abs_editable_multi_select && getSelectionCallback() != null)
+//            getSelectionConnection().getMode().start(getSelectionCallback());
+//        else if (groupId == R.id.actions_abs_editable_group_sorting)
+//            changeSortingCriteria(item.getOrder());
+//        else if (groupId == R.id.actions_abs_editable_group_sort_order)
+//            changeOrderingCriteria(item.getOrder());
+//        else if (groupId == R.id.actions_abs_editable_group_grid_size)
+//            changeGridViewSize(item.getOrder());
 
         return super.onOptionsItemSelected(item);
     }
@@ -892,31 +892,31 @@ abstract public class EditableListFragment<T extends Editable, V extends Editabl
         @Override
         public boolean onActionMenuItemSelected(final Context context, PowerfulActionMode actionMode, MenuItem item)
         {
-            int id = item.getItemId();
-
-            if (id == R.id.action_mode_abs_editable_select_all)
-                setSelection(true);
-            else if (id == R.id.action_mode_abs_editable_select_none)
-                setSelection(false);
-            else if (id == R.id.action_mode_abs_editable_preview_selections)
-                new SelectionEditorDialog<>(mFragment.getActivity(), mFragment.getSelectionConnection().getSelectedItemList())
-                        .setOnDismissListener(new DialogInterface.OnDismissListener()
-                        {
-                            @Override
-                            public void onDismiss(DialogInterface dialog)
-                            {
-                                List<T> selectedItems = new ArrayList<>(mFragment.getSelectionConnection().getSelectedItemList());
-
-                                for (T selectable : selectedItems)
-                                    if (!selectable.isSelectableSelected())
-                                        mFragment.getSelectionConnection().setSelected(selectable, false);
-
-                                // Position cannot be assumed that is why we need to request a refresh
-                                getAdapter().notifyAllSelectionChanges();
-                            }
-
-                        })
-                        .show();
+//            int id = item.getItemId();
+//
+//            if (id == R.id.action_mode_abs_editable_select_all)
+//                setSelection(true);
+//            else if (id == R.id.action_mode_abs_editable_select_none)
+//                setSelection(false);
+//            else if (id == R.id.action_mode_abs_editable_preview_selections)
+//                new SelectionEditorDialog<>(mFragment.getActivity(), mFragment.getSelectionConnection().getSelectedItemList())
+//                        .setOnDismissListener(new DialogInterface.OnDismissListener()
+//                        {
+//                            @Override
+//                            public void onDismiss(DialogInterface dialog)
+//                            {
+//                                List<T> selectedItems = new ArrayList<>(mFragment.getSelectionConnection().getSelectedItemList());
+//
+//                                for (T selectable : selectedItems)
+//                                    if (!selectable.isSelectableSelected())
+//                                        mFragment.getSelectionConnection().setSelected(selectable, false);
+//
+//                                // Position cannot be assumed that is why we need to request a refresh
+//                                getAdapter().notifyAllSelectionChanges();
+//                            }
+//
+//                        })
+//                        .show();
 
             return false;
         }
