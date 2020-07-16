@@ -271,8 +271,8 @@
 128-->D:\bharat-share-1\Bharat Share\app\src\main\AndroidManifest.xml:82:9-86:80
 129            android:name="com.abc.sharefilesz.activity.ContentSharingActivity"
 129-->D:\bharat-share-1\Bharat Share\app\src\main\AndroidManifest.xml:83:13-79
-130            android:label="@string/text_send"
-130-->D:\bharat-share-1\Bharat Share\app\src\main\AndroidManifest.xml:84:13-46
+130            android:label="@string/app_name"
+130-->D:\bharat-share-1\Bharat Share\app\src\main\AndroidManifest.xml:84:13-45
 131            android:launchMode="singleTask"
 131-->D:\bharat-share-1\Bharat Share\app\src\main\AndroidManifest.xml:85:13-44
 132            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />

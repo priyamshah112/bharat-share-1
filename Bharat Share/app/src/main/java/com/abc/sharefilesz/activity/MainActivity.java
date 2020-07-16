@@ -69,6 +69,7 @@ public class MainActivity
 
         final Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         if (checkPermission()) {
 
 
